@@ -225,4 +225,32 @@
   .magnetic {
     transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
   }
+  
+  /* Touch-friendly improvements */
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Disable 3D transforms on mobile for better performance */
+  @media (max-width: 768px) {
+    .card-3d:hover {
+      transform: translateY(-4px) !important;
+    }
+  }
+  
+  /* Improve text readability on mobile */
+  @media (max-width: 640px) {
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+  
+  /* Prevent horizontal scroll on mobile */
+  @media (max-width: 640px) {
+    * {
+      max-width: 100%;
+    }
+  }
 }
