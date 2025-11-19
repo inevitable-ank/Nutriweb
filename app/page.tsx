@@ -336,9 +336,8 @@ export default function Home() {
 
               {/* Android Card */}
               <a
-                href="https://play.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://github.com/inevitable-ank/Nutri/releases/download/v1.0.0/application-040d71f3-eca8-410f-97c6-dc7dac061197.apk"
+                download="Nutri-v1.0.0.apk"
                 className="group relative rounded-2xl border border-border/40 bg-background/80 backdrop-blur-sm p-6 sm:p-8 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/30 transition-all duration-300 hover:-translate-y-3 card-3d overflow-hidden active:scale-95 touch-manipulation"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-primary/10 to-primary/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
